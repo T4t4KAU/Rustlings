@@ -32,6 +32,7 @@ fn verify_test() {
     let price3 = calculate_price_of_apples(41);
     let price4 = calculate_price_of_apples(65);
 
+
     assert_eq!(70, price1);
     assert_eq!(80, price2);
     assert_eq!(41, price3);
